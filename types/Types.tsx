@@ -17,5 +17,5 @@ export interface TASK {
   userId: number
   id: number
   title: string
-  complated: boolean
+  completed: boolean
 }
