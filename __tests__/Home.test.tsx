@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect'
 import Home from '../pages/index'
 
 it('Should render hello text', () => {
-    render(<Home />)
-    // screen.debug()
-    expect(screen.getByText('Hello Nextjs')).toBeInTheDocument()
+  render(<Home />)
+  // screen.debug()
+  expect(screen.getByText('Welcome to Nextjs')).toBeInTheDocument()
 })
