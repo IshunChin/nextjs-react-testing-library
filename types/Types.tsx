@@ -10,7 +10,7 @@ export interface COMMENT {
   id: number
   name: string
   email: string
-  bodyu: string
+  body: string
 }
 
 export interface TASK {
